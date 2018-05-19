@@ -1,0 +1,55 @@
+#homeCollapse p.lead {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin-top: -25px;
+}
+
+#homeCollapse .card-background {
+  background: #34515E;
+}
+
+#homeCollapse .card-second-background {
+  background: #F2F1ED;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#homeCollapse .card-second-background p,
+i.fa-smile, i.fa-trophy {
+  margin-bottom: 30px;
+}
+
+i.fa-smile, i.fa-trophy, i.fa-frown {
+  color: orangered;
+  font-size: 20px;
+}
+
+h6 {
+  letter-spacing: 0.5px;
+}
+
+
+@media only screen and (min-width: 993px) {
+  #homeCollapse p.lead {
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+    margin-top: -25px;
+  }
+
+  h6 {
+    letter-spacing: 5px;
+  }
+
+  #homeCollapse h6.second {
+    padding-left: 88px;
+  }
+  
+  #homeCollapse h6.third {
+    padding-left: 277px;
+  }
+  
+  #homeCollapse h6.fourth {
+    padding-left: 450px;
+  }
+}

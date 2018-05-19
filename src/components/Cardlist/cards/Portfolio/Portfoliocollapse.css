@@ -1,0 +1,41 @@
+#portfolioCollapse .card-background {
+  background: #7D314C;
+}
+
+#portfolioCollapse h1 + p {
+  letter-spacing: 2px;
+}
+
+.what_have_i_build_header {
+  padding-left: 57px;
+  letter-spacing: 1px;
+}
+
+#portfolioCollapse .card-second-background {
+  background: #F2F1ED;
+}
+
+.campImage{
+  width: 315px;
+  height: 250px;
+}
+
+img.campImage_full {
+  width: 100%;
+}
+
+.imageFlex-Card {
+  width: 315px;
+  height: 100%;
+  margin: 10px;
+}
+
+.imageFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-body h4 a i.fa-github {
+  color: #000;
+}

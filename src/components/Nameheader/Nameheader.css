@@ -1,0 +1,75 @@
+.Nameheader {
+  background: #252624;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'leaguespartan-bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('leaguespartan-bold'), url('leaguespartan-bold.woff') format('woff');
+  }
+
+ h1 {
+  font-family: 'leaguespartan-bold';
+  letter-spacing: 5px;
+  font-size: 22px;
+}
+
+.Nameheader {
+  position: relative;
+}
+
+.Nameheader p {
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.account_links {
+  position: absolute;
+  top: 15px; 
+  right: 55px;
+} 
+
+.account_links a:nth-child(1) {
+  color: #0077B5;
+}
+
+.account_links a:nth-child(2) {
+  margin-left: 20px;
+  color: #fff;
+}
+
+.account_links a:nth-child(3) {
+  margin-left: 20px;
+  color: #1DA1F2
+}
+
+
+@media only screen and (min-width: 550px) {
+
+  h1 {
+    font-size: 43px;
+  }
+
+  span h1 {
+    display: inline-block;
+    position: relative;  
+  }
+  span h1:before,
+  span h1:after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid white;
+    top: 20px;
+    width: 70px;
+  }
+  span h1:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  span h1:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+}

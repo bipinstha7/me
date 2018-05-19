@@ -1,0 +1,59 @@
+#captureCollapse .card-background {
+  background: #34515E;
+}
+
+#captureCollapse .card-second-background {
+  background: #F2F1ED;
+}
+
+#captureCollapse h1 + p {
+  letter-spacing: 1.5px;
+}
+
+.capturedImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.capturedImages img {
+  width: 260px;
+  height: 250px;
+  margin: 3px;
+  box-shadow: 2px 2px 6px #888; 
+  filter: grayscale(100%);
+}
+
+.capturedImages img:hover {
+  filter: grayscale(0);
+}
+
+.what_have_i_captured {
+  padding-left: 20px;
+  letter-spacing: 2px;
+}
+
+div.fitToWindow {
+  text-align: center;
+}
+
+img.capturedImage_full {
+  width: 100%;
+  height: auto;
+}
+
+#tree_peak_modal img, 
+#baby_modal img,
+#road_modal img,
+#hukka_modal img,
+#khaja_modal img,
+#project_modal img {
+  width: auto;
+  height: 90vh;
+}
+
+@media only screen and (min-width: 550px) {
+  img.capturedImage_full {
+    height: 90vh;
+  }
+}

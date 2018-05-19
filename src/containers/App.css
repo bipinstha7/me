@@ -1,0 +1,59 @@
+.container {
+  padding: 0;
+  box-shadow: 0 0 5px #888;
+}
+
+.profession {
+  background: #000;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.card-collapse {
+  width: 30%;
+  padding: 10px;
+  color: #000;
+}
+
+.home {
+  background: #CDCDCD;
+}
+
+.portfolio {
+  background: #CDCDCD;
+}
+
+.capture {
+  background: #CDCDCD;
+}
+
+.contact {
+  background: #CDCDCD;
+}
+
+.card-collapse:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.card-collapse .fas {
+  font-size: 2em;
+}
+
+.card-collapse p {
+  padding-top: 2px;
+  letter-spacing: 1.5px;
+}
+
+
+@media only screen and (min-width: 1199px) {
+  .card-collapse {
+    padding: 2em;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .profession {
+    font-size: 1em;
+  }
+}
