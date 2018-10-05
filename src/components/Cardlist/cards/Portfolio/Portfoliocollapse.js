@@ -17,7 +17,7 @@ const Portfoliocollapse = () => {
       <div className="card-background card text-white rounded-0">
         <div className="card-body p-5">
           <h1>My Portfolio</h1>
-          <p>I'm a full stack web developer. I write javascript, node js and react. I am more concerned with backend development</p>
+          <p>I'm a full stack web developer. I write javascript, node js and vuejs/react. I am more concerned with backend development</p>
         </div>
       </div>
       <div className="card-second-background card">

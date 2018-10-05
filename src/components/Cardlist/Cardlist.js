@@ -12,9 +12,12 @@ import Contactcollapse from "./cards/Contact/Contactcollapse";
 
 
 class Cardlist extends Component {
-  state = {
-    active: "home"
-  }
+  constructor(props) {
+    super(props);
+    this.state = {
+      active: "home"
+    };
+}
 
   toggleChoice = (choice) => {
     if (this.state.active === choice) {

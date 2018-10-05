@@ -17,7 +17,7 @@ const Homecollapse = () => {
           <h2>Here's what I have done so far ...</h2>
           <hr/>
           <p>Most important: I have learned to code.</p>
-          <p>Learned Node js, React and MongDB - MERN stack </p>
+          <p>I was MERN stack developer but later on I fell in love with vuejs.</p>
           <p>Developed Problem Solving Skills</p>
           <p>Built some cool projects - chekout on my portfolio</p>
           <hr/>

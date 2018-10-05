@@ -6,11 +6,12 @@ import Profession from "../components/Profession/Profession";
 import Cardlist from "../components/Cardlist/Cardlist";
 
 class App extends Component {
+    
   render() {
     
     return (
       <div className="container">
-        <div className="d-flex flex-column">
+      <div className="d-flex flex-column">
           <Nameheader />
           <Profession />
           <Cardlist />

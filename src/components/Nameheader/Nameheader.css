@@ -20,9 +20,20 @@
   position: relative;
 }
 
-.Nameheader p {
+.Nameheader > p {
   padding-top: 50px;
   font-size: 20px;
+}
+
+.blog {
+  position: absolute;
+  top: 15px; 
+  font-weight: bold;
+  cursor: pointer;
+} 
+
+.modal {
+  color: #000;
 }
 
 .account_links {
