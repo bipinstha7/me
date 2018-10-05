@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.cc404a11.chunk.css",
-  "main.js": "/static/js/main.9f6a52cc.chunk.js",
-  "main.js.map": "/static/js/main.9f6a52cc.chunk.js.map",
+  "main.css": "/static/css/main.edd5fe95.chunk.css",
+  "main.js": "/static/js/main.db476f8d.chunk.js",
+  "main.js.map": "/static/js/main.db476f8d.chunk.js.map",
   "static/js/1.55708e10.chunk.js": "/static/js/1.55708e10.chunk.js",
   "static/js/1.55708e10.chunk.js.map": "/static/js/1.55708e10.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -38,8 +38,8 @@
   "static/media/tree.jpg": "/static/media/tree.9e576a45.jpg",
   "static/media/woman.jpg": "/static/media/woman.a191646a.jpg",
   "static/media/Nameheader.css": "/static/media/leaguespartan-bold.de124ab4.woff",
-  "static/css/main.cc404a11.chunk.css.map": "/static/css/main.cc404a11.chunk.css.map",
+  "static/css/main.edd5fe95.chunk.css.map": "/static/css/main.edd5fe95.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.cb79a00438b06646c996f90796c721df.js": "/precache-manifest.cb79a00438b06646c996f90796c721df.js",
+  "precache-manifest.3fa49d325fa91b74cf9336e1d5714e2b.js": "/precache-manifest.3fa49d325fa91b74cf9336e1d5714e2b.js",
   "service-worker.js": "/service-worker.js"
 }
